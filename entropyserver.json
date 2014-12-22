@@ -1,0 +1,8 @@
+{
+  "server": "entropy://entropy.net.nz/",
+  "protocolversions": ["1.0"],
+  "source": "ComScire PQ32MU",
+  "bitsofentropy": 8,
+  "minrequestbytes": 64,
+  "maxrequestbytes": 4096
+}

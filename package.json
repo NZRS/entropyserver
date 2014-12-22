@@ -1,0 +1,15 @@
+{
+  "name": "entropyserver",
+  "version": "0.0.1",
+  "description": "A JSON API that serves entropy",
+  "main": "entropyserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jay Daley",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "express": "^4.10.6",
+    "ftdi": "^1.1.0"
+  }
+}
