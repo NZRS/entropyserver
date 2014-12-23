@@ -86,4 +86,4 @@ _example output:_
 
 ## Known issues
 
-The server crashes regularly with "Segmentation fault: 11".  AFAICT this is related to the ftdi module but still searching.
+The server crashes regularly with "Segmentation fault: 11" on OSX Yosemite.  AFAICT this is a bug in OSX that is affecting a number of different applications.

@@ -69,9 +69,9 @@ function setuprouter() {
     var d;
 
     bytes = parseInt(bytes);
-    console.log("bytes requested: " + bytes.toString());
     bytes = (bytes < config.minrequestbytes) ? config.minrequestbytes : bytes;
     bytes = (bytes > config.maxrequestbytes) ? config.maxrequestbytes : bytes;
+    console.log("bytes to be served: " + bytes.toString());
 
     d = circ.pop(bytes);
 
